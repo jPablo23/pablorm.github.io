@@ -1,0 +1,293 @@
+body
+{
+ font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    background:#ccc url(../img/fondo3.jpg)no-repeat fixed left top / cover ;
+    /*background-color: #585858;*/
+}
+
+/****************************
+    Diseño de la pagina
+*****************************/
+div#Contenedor
+{
+   /* margin-top: 10px;
+margin: auto;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(5,5,5,0.5);
+    position: relative;*/
+    width: 90%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+p {
+ 
+    color: #000;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+ol
+{
+   list-style-type: none;
+}
+
+/****************************
+    diseño de cabecera
+*****************************/
+#main-header{
+    
+    
+}
+
+#main-logo
+{
+    margin-top: 30px;/*Le da espacio entre el final de la pagina*/
+}
+
+#main-logo img
+        {
+            margin-left: auto; /*Para centrar*/ 
+            margin-right: auto; /*Para centrar*/
+            /*Para la sombra*/
+            box-shadow: 10px 10px 10px #888888;
+        -moz-box-shadow: 10px 10px 10px #888888;
+        -webkit-box-shadow: 10px 10px 10px #888888;
+        }
+
+#main-Datos
+{
+    
+    padding: 0;/*Evita que me falsen la distancia*/
+     margin-left: auto; /*Para centrar*/ 
+    margin-right: auto; /*Para centrar*/
+    margin:0 auto;/*Centrado*/
+}
+h1#main-nombre
+{
+   text-align: center;
+    font-size: 400%;
+}
+h1#main-Descripcion
+{
+   text-align: center;
+    color: darkgrey;
+    
+}
+
+/***********************************
+    Medias querys, acomodar el logo
+    en dispositivos moviles
+***********************************/
+
+@media (max-width: 600px){/*Para Header*/
+    
+        #main-logo
+        {
+             
+        width: 100%;
+        }
+    
+    #main-logo img
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+             box-shadow: 10px 10px 10px #888888;
+        -moz-box-shadow: 10px 10px 10px #888888;
+        -webkit-box-shadow: 10px 10px 10px #888888;
+        }
+    
+    #main-Datos
+        {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;/*Evita que me falsen la distancia*/
+            margin:0 auto;/*Centrado*/
+            width: 100%;/*Para que tome todo el ancho de la pantalla*/
+            
+            
+        }
+        h1#main-nombre
+        {
+           
+            font-size: 250%;
+            text-align: center;
+            
+        }
+        h1#main-Descripcion
+        {
+            color: darkgrey;
+            font-size: 150%;
+            text-align: center;
+        }
+    
+    
+    
+    
+    /*Para las secciones del body*/
+    #Datos-localizacion
+    {
+        width: 100%;
+    }
+    /*Para body-Perfil*/
+    #perfil-imagen
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    /*Para Experiencia laboral*/
+    #body-expericia .container h1
+    {
+        font-size: 150%;
+        color: darkslategray;
+    }
+    
+    }
+/*Medias querys, acomodar el texto*/
+@media (min-width: 600px){/*Para las secciones del body*/
+        
+    /* h1#main-nombre
+        {
+           
+            font-size: 250%;
+            text-align: center;
+            color: red;
+            
+        }*/
+}
+
+
+
+/****************************
+    diseño de body
+*****************************/
+#body-comentario
+{
+    margin-top: 30px;
+    text-align: justify;
+}
+#Datos-localizacion
+{
+    margin-top: 30px;
+}
+#redes-sociales
+{
+    margin-top: 30px;
+}
+#body-Perfil
+{
+    margin-top: 30px;
+    
+}
+#perfil-descripcion
+{
+    text-align: justify;
+}
+
+#exp-labo
+{
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+#exp-labo h1
+{
+     color: #fff;
+    margin-left: 10px;
+}
+#body-expericia
+{
+    text-align: justify;
+}
+#Datos-localizacion
+{
+
+}
+#redes-sociales
+{
+    text-align: center;
+}
+#perfil-imagen
+{
+     margin-top: 20px;
+   -webkit-box-shadow: -1px 7px 29px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 7px 29px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 7px 29px 0px rgba(0,0,0,0.75); 
+}
+
+/*****************************
+            Habilidades y herramientas
+*****************************/
+#hab-her1
+{
+    background-color: blue;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    
+}
+#hab-her1 h1
+{
+    color: #fff;
+    margin-left: 10px;
+}
+#hab-her2
+{
+    background-color: crimson;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    
+}
+#hab-her2 h1
+{
+    color: #fff;
+    margin-left: 10px;
+}
+#title-habilidades
+{
+color: #fff;
+background-color: #2DAAE1;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#title-herramientas
+{
+    color: #fff;
+background-color: #2DAAE1;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#her-col2 ul
+{
+     margin:0; padding:0
+}
+#exp-labo
+{
+   background-color: #FEEE00;
+     border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+
+
